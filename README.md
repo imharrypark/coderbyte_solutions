@@ -1,4 +1,6 @@
-# coderbyte_solutions
-my personal solutions to coderbyte challenges
+# Coderbyte Solutions
+* My personal solutions to coderbyte challenges
 
-language used: Ruby
+Feel free to issue anything -- feedback, bug, room for improvement, etc!
+
+Language used: Ruby
