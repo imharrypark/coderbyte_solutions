@@ -7,7 +7,7 @@ def swap_two(str)
     first_ele = chunks[i][0]
     last_ele = chunks[i][-1]
 
-    if numstring?(first_ele) && numstring?(last_ele)
+    if numeric?(first_ele) && numeric?(last_ele)
       chunks[i][0] = last_ele
       chunks[i][-1] = first_ele
     end
@@ -23,7 +23,6 @@ end
 
 private
 
-def numstring?(str)
-  return false if str.length > 1
-  str.bytes[0] >= 48 && str.bytes[0] <= 57
+def numeric?(str)
+  str =~ /[0-9]/
 end
