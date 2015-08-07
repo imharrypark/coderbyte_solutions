@@ -24,7 +24,3 @@ def caesar_cipher(str, num)
 
   new_chars.join
 end
-
-# Byte assignment
-# ('A'..'Z') -> 65 - 90
-# ('a'..'z') -> 97 - 122
